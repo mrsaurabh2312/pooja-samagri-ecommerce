@@ -9,7 +9,7 @@ const orderRoutes = require('./routes/order');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://balkishan0107sharma:hqlaExu58bxV6zAx@cluster0.vrfvxjd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://balkishan0107sharma:hqlaExu58bxV6zAx@cluster0.vrfvxjd.mongodb.net/pooja-samagri?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'));
 
